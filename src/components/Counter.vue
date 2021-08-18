@@ -1,5 +1,6 @@
 <template>
     <h2>{{ custonTitle }}</h2>
+    <p data-testid="counter"> {{ counter }} </p>
     <p> {{ counter }} <sup>2</sup> = {{ squareCounter }} </p>
 
     <button @click="increase" class="primary"> + 1 </button>
